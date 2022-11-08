@@ -5,7 +5,11 @@
 	box-sizing: border-box;
 }
 body{
-	background-image: url(images/pbackroud.jpg);
+
+	background-image: url(pbackroud.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 	color: #fff;
 }
 #header{
@@ -129,5 +133,6 @@ nav ul li a{
 	margin-top: 200px;
 }
 p{
-	color: black;
+	color: white;
+	font-size:20px; 
 }
